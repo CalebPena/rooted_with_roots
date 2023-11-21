@@ -29,6 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@react2svelte/image-gallery": "^1.0.1"
+		"@react2svelte/image-gallery": "^1.0.1",
+		"googleapis": "^128.0.0"
 	}
 }

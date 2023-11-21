@@ -1,4 +1,5 @@
 <script>
+	import { enhance } from '$app/forms';
 	import Donate from '$lib/Donate.svelte';
 	import ImageGallary from '$lib/ImageGallary.svelte';
 </script>
@@ -63,10 +64,13 @@
 <div class="spacer"></div>
 
 <section class="mail-section">
-	<h2>Mail List</h2>
-	<form action="#" method="post">
-		<label for="email">Email</label><input type="email" id="email" name="email" />
-		<label for="name">Name</label><input type="text" id="name" name="name" />
+	<h2 id="mail-list">Mail List</h2>
+	<p class="mail-description">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, voluptatem!
+	</p>
+	<form action="/email" method="POST" class="email-form">
+		<label for="name">Name</label><input type="text" id="name" name="name" required />
+		<label for="email">Email</label><input type="email" id="email" name="email" required />
 		<button type="submit">Submit</button>
 	</form>
 </section>
@@ -90,6 +94,45 @@
 	}
 
 	.mail-section {
-		height: 11em;
+		height: 20em;
+	}
+
+	.mail-description {
+		text-align: center;
+	}
+
+	.email-form {
+		display: flex;
+		justify-content: center;
+		gap: 0.3em;
+		font-size: 1.5em;
+	}
+
+	.email-form > input {
+		font-size: 1em;
+		margin-bottom: 0.5em;
+	}
+
+	.email-form > button {
+		font-size: 1em;
+		height: 100%;
+		background-color: var(--primary-color);
+		color: var(--secondary-color);
+		cursor: pointer;
+	}
+
+	.email-form > button:hover {
+		color: var(--action-color);
+		box-shadow: 0.05em 0.05em 0em 0.05em var(--action-color);
+	}
+
+	@media (max-width: 1600px) {
+		.email-form {
+			flex-direction: column;
+		}
+
+		.mail-section {
+			height: 40em;
+		}
 	}
 </style>

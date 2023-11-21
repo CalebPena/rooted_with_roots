@@ -3,7 +3,7 @@
 <style>
 	a {
 		color: var(--primary-color);
-		background-color: var(--accent-color);
+		background-color: var(--action-color);
 		padding: 0.5em;
 		border-radius: 1em;
 		text-decoration: none;
