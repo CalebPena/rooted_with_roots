@@ -1,13 +1,15 @@
 <script lang="ts">
 	import Donate from '$lib/Donate.svelte';
+
+	import _ from '$lib/i18n/i18n-svelte';
 </script>
 
 <nav>
-	<!-- <a href="/" class="logo">Roots</a> -->
 	<div class="links">
-		<a href="/#story">Story</a>
-		<a href="/#mission">Mission</a>
-		<a href="/#resources">Resources</a>
+		<a href="/" class="logo"><img src="/logo.png" alt="Rooted With Roofs Logo" /></a>
+		<a href="/#story">{$_.header.story()}</a>
+		<a href="/#mission">{$_.header.mission()}</a>
+		<a href="/#resources">{$_.header.resources()}</a>
 	</div>
 	<Donate />
 </nav>
@@ -58,6 +60,7 @@
 		display: flex;
 		gap: 1em;
 		font-size: 2em;
+		align-items: center;
 	}
 
 	.links > a {
@@ -70,10 +73,14 @@
 		text-decoration: underline;
 	}
 
+	img {
+		width: 2em;
+	}
+
 	@media (max-width: 900px) {
 		nav {
 			flex-direction: column;
-			height: 7em;
+			height: 9em;
 		}
 
 		:global(body, html) {
@@ -86,7 +93,7 @@
 		}
 	}
 
-	@media (max-width: 650px) {
+	@media (max-width: 680px) {
 		nav {
 			align-items: baseline;
 			position: unset;
@@ -96,6 +103,8 @@
 
 		.links {
 			flex-direction: column;
+			align-items: baseline;
+			gap: 0.3em;
 		}
 
 		:global(body, html) {

@@ -1,48 +1,37 @@
 <script>
-	import { enhance } from '$app/forms';
 	import Donate from '$lib/Donate.svelte';
 	import ImageGallary from '$lib/ImageGallary.svelte';
+
+	import _, { locale, setLocale } from '$lib/i18n/i18n-svelte';
+
+	let selectLocale = $locale;
+	$: setLocale(selectLocale);
 </script>
 
 <h1>Rooted With Roofs</h1>
 
 <ImageGallary />
 <div class="donate">
-	<Donate />
+	<select name="language" id="language-select" bind:value={selectLocale}>
+		<option value="en">English</option>
+		<option value="es">Español</option>
+	</select>
 </div>
 
 <div class="spacer"></div>
 
 <section class="story-section">
-	<h2 id="story">Our Story</h2>
-	<p class="story">
-		Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit excepturi
-		repellendus expedita dolorem. Similique et temporibus velit repudiandae reprehenderit blanditiis
-		tempora, minus qui eos nisi nobis aperiam adipisci voluptatem, ducimus delectus iste modi ullam
-		amet dolor. Numquam quae ipsa dolorum dolor, quod mollitia molestias reprehenderit laudantium
-		sapiente commodi facilis ipsum nulla perspiciatis eius nihil iste veritatis laborum nam,
-		provident saepe neque facere doloremque nostrum consequuntur? Doloribus inventore similique,
-		neque sequi molestias adipisci animi, ducimus aspernatur reiciendis molestiae officiis!
-		Assumenda magni dignissimos quod, dolore quisquam accusamus voluptatibus hic voluptas, vero
-		illum quasi repellat a adipisci eveniet, labore iste. Nisi, maiores laboriosam.
-	</p>
+	<h2 id="story">{$_.story.header()}</h2>
+	<p class="story">{$_.story.bodyP1()}</p>
+	<p class="story">{$_.story.bodyP2()}</p>
+	<p class="story">{$_.story.bodyP3()}</p>
 </section>
 
 <div class="spacer"></div>
 
 <section class="mission-section">
-	<h2 id="mission">Our Mission</h2>
-	<p class="mission">
-		Lorem, ipsum dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit excepturi
-		repellendus expedita dolorem. Similique et temporibus velit repudiandae reprehenderit blanditiis
-		tempora, minus qui eos nisi nobis aperiam adipisci voluptatem, ducimus delectus iste modi ullam
-		amet dolor. Numquam quae ipsa dolorum dolor, quod mollitia molestias reprehenderit laudantium
-		sapiente commodi facilis ipsum nulla perspiciatis eius nihil iste veritatis laborum nam,
-		provident saepe neque facere doloremque nostrum consequuntur? Doloribus inventore similique,
-		neque sequi molestias adipisci animi, ducimus aspernatur reiciendis molestiae officiis!
-		Assumenda magni dignissimos quod, dolore quisquam accusamus voluptatibus hic voluptas, vero
-		illum quasi repellat a adipisci eveniet, labore iste. Nisi, maiores laboriosam.
-	</p>
+	<h2 id="mission">{$_.mission.header()}</h2>
+	<p class="mission">{$_.mission.body()}</p>
 </section>
 
 <div class="donate">
@@ -52,26 +41,26 @@
 <div class="spacer"></div>
 
 <section class="resources-section">
-	<h2 id="resources">Resources</h2>
-	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, et.</p>
-	<address>
-		<a href="https://maps.app.goo.gl/zcFBRHvjvhJsJp2t5" class="address">
-			3815 Steele St, Denver, CO 80205
-		</a>
-	</address>
+	<h2 id="resources">{$_.resources.header()}</h2>
+	<p>{$_.resources.description()}</p>
+	<a href="https://maps.app.goo.gl/zcFBRHvjvhJsJp2t5" class="address">
+		{$_.resources.link()}
+	</a>
 </section>
 
 <div class="spacer"></div>
 
 <section class="mail-section">
-	<h2 id="mail-list">Mail List</h2>
+	<h2 id="mail-list">{$_.mailList.header()}</h2>
 	<p class="mail-description">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, voluptatem!
+		{$_.mailList.description()}
 	</p>
 	<form action="/email" method="POST" class="email-form">
-		<label for="name">Name</label><input type="text" id="name" name="name" required />
-		<label for="email">Email</label><input type="email" id="email" name="email" required />
-		<button type="submit">Submit</button>
+		<label for="name">{$_.mailList.name()}</label>
+		<input type="text" id="name" name="name" required />
+		<label for="email">{$_.mailList.email()}</label>
+		<input type="email" id="email" name="email" required />
+		<button type="submit">{$_.mailList.button()}</button>
 	</form>
 </section>
 
@@ -83,6 +72,10 @@
 
 	.donate {
 		text-align: center;
+	}
+
+	select {
+		font-size: 1em;
 	}
 
 	.spacer {

@@ -1,4 +1,8 @@
-<a href="/donate">DONATE</a>
+<script lang="ts">
+	import _ from '$lib/i18n/i18n-svelte';
+</script>
+
+<a href="/donate">{$_.donate()}</a>
 
 <style>
 	a {
