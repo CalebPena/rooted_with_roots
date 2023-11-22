@@ -64,7 +64,16 @@
 	</form>
 </section>
 
+<div class="donate-big">
+	<Donate />
+</div>
+
 <style>
+	.donate-big {
+		font-size: 10vw;
+		text-align: center;
+		margin-bottom: 0.5em;
+	}
 	h1 {
 		text-align: center;
 		padding-top: 1em;

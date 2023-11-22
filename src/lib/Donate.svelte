@@ -2,7 +2,9 @@
 	import _ from '$lib/i18n/i18n-svelte';
 </script>
 
-<a href="/donate">{$_.donate()}</a>
+<a href="https://providencedenver.churchcenter.com/giving/to/rooted-with-roofs" target="_blank">
+	{$_.donate()}
+</a>
 
 <style>
 	a {
