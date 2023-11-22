@@ -7,14 +7,15 @@ export const actions = {
 		const data = await request.formData();
 		const name = data.get('name');
 		const email = data.get('email');
+		const time = new Date().toLocaleString('en-US', { timeZone: 'America/Denver' });
 
 		await sheets.spreadsheets.values.append({
 			auth,
 			spreadsheetId: SPREADSHEET_ID,
-			range: 'Contacts!A:B',
+			range: 'Contacts!A:C',
 			valueInputOption: 'RAW',
 			requestBody: {
-				values: [[name, email]]
+				values: [[name, email, time]]
 			}
 		});
 
