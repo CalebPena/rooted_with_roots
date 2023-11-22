@@ -1,5 +1,5 @@
 import { SPREADSHEET_ID } from '$env/static/private';
-import { sheets, auth } from '$lib/googleSheets.js';
+import { sheets, auth } from '$lib/server/googleSheets.js';
 import { redirect } from '@sveltejs/kit';
 
 export const actions = {
@@ -21,3 +21,7 @@ export const actions = {
 		throw redirect(302, '/#mail-list');
 	}
 };
+
+export function load() {
+	throw redirect(308, '/');
+}

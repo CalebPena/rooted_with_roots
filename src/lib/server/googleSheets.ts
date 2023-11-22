@@ -1,9 +1,10 @@
+import { GOOGLE_SERVICE } from '$env/static/private';
 import { google } from 'googleapis';
 
 const scope = 'https://www.googleapis.com/auth/spreadsheets';
 
 export const auth = new google.auth.GoogleAuth({
-	keyFile: 'googleCredentials.json',
+	credentials: JSON.parse(GOOGLE_SERVICE),
 	scopes: [scope]
 });
 
