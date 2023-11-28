@@ -58,6 +58,7 @@
 <div class="spacer"></div>
 
 <section class="resources-section">
+	<h2 id="resources">{$_.resources.header()}</h2>
 	<p>
 		{$_.resources.descriptionP1()}
 		<a href={$_.resources.websiteLink()} class="gov-link" target="_blank" rel="noreferrer noopener">
