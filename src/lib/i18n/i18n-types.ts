@@ -24,7 +24,7 @@ type RootTranslation = {
 		 */
 		mission: string
 		/**
-		 * R​e​s​o​u​r​c​e​s
+		 * W​h​y​ ​G​i​v​e
 		 */
 		resources: string
 	}
@@ -62,7 +62,7 @@ type RootTranslation = {
 	}
 	action: {
 		/**
-		 * C​a​l​l​ ​t​o​ ​A​c​t​i​o​n
+		 * W​h​y​ ​G​i​v​e​?
 		 */
 		header: string
 		/**
@@ -163,7 +163,7 @@ export type TranslationFunctions = {
 		 */
 		mission: () => LocalizedString
 		/**
-		 * Resources
+		 * Why Give
 		 */
 		resources: () => LocalizedString
 	}
@@ -201,7 +201,7 @@ export type TranslationFunctions = {
 	}
 	action: {
 		/**
-		 * Call to Action
+		 * Why Give?
 		 */
 		header: () => LocalizedString
 		/**

@@ -13,7 +13,7 @@
 		<a href="/" class="logo"><img src="/logo.png" alt="Rooted With Roofs Logo" /></a>
 		<a href="/#story">{$_.header.story()}</a>
 		<a href="/#mission">{$_.header.mission()}</a>
-		<a href="/#resources">{$_.header.resources()}</a>
+		<a href="/#why-give">{$_.header.resources()}</a>
 	</div>
 	<Donate />
 </nav>
@@ -37,7 +37,7 @@
 	:global(body, html) {
 		margin: 0;
 		background-color: #eeeeee;
-		scroll-padding-top: 5em;
+		scroll-padding-top: 6em;
 	}
 
 	main {

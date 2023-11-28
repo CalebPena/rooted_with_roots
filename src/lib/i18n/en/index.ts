@@ -4,7 +4,7 @@ const en = {
 	header: {
 		story: 'Story',
 		mission: 'Mission',
-		resources: 'Resources'
+		resources: 'Why Give'
 	},
 	donate: 'DONATE',
 	story: {
@@ -21,7 +21,7 @@ const en = {
 		body: 'Our mission is to empower and support recent migrants in Denver by providing employment opportunities and sustainable housing. We aim to create a supportive community environment that helps each family unit integrate smoothly into their new community, ensuring they have the resources for long-term stability and success.'
 	},
 	action: {
-		header: 'Call to Action',
+		header: 'Why Give?',
 		bodyP1:
 			'Imagine arriving in a new country, with hope in your heart but uncertainty at your doorstep. This has been the reality for thousands of Venezuelan migrants who have come to Denver, seeking a fresh start and a brighter future.',
 		bodyP2:

@@ -4,7 +4,7 @@ const es = {
 	header: {
 		story: 'Historia',
 		mission: 'Misión',
-		resources: 'Recursos'
+		resources: 'Por Qué Dar'
 	},
 	donate: 'DONAR',
 	story: {
@@ -21,7 +21,7 @@ const es = {
 		body: 'Nuestra misión es empoderar y apoyar a los inmigrantes recientes en Denver brindándoles oportunidades de empleo y viviendas sostenibles. Nuestro objetivo es crear un entorno comunitario de apoyo que ayude a cada unidad familiar a integrarse sin problemas en su nueva comunidad, garantizando que tengan los recursos para la estabilidad y el éxito a largo plazo.'
 	},
 	action: {
-		header: 'Llamada a la acción',
+		header: '¿Por Qué Dar?',
 		bodyP1:
 			'Imagínese llegar a un nuevo país, con esperanza en el corazón pero incertidumbre en la puerta. Esta ha sido la realidad de miles de inmigrantes venezolanos que han llegado a Denver en busca de un nuevo comienzo y un futuro mejor.',
 		bodyP2:

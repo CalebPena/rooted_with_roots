@@ -39,17 +39,17 @@
 
 <div class="spacer"></div>
 
-<section class="call-to-action">
-	<h2 id="call-to-action">{$_.action.header()}</h2>
-	<p class="call-to-action">{$_.action.bodyP1()}</p>
-	<p class="call-to-action">{$_.action.bodyP2()}</p>
-	<p class="call-to-action">{$_.action.bodyP3()}</p>
-	<p class="call-to-action">{$_.action.bodyP4()}</p>
-	<p class="call-to-action">{$_.action.bodyP5()}</p>
-	<p class="call-to-action">{$_.action.bodyP6()}</p>
-	<p class="call-to-action">{$_.action.bodyP7()}</p>
-	<p class="call-to-action">{$_.action.bodyP8()}</p>
-	<p class="call-to-action">{$_.action.bodyP9()}</p>
+<section class="why-give">
+	<h2 id="why-give">{$_.action.header()}</h2>
+	<p class="why-give">{$_.action.bodyP1()}</p>
+	<p class="why-give">{$_.action.bodyP2()}</p>
+	<p class="why-give">{$_.action.bodyP3()}</p>
+	<p class="why-give">{$_.action.bodyP4()}</p>
+	<p class="why-give">{$_.action.bodyP5()}</p>
+	<p class="why-give">{$_.action.bodyP6()}</p>
+	<p class="why-give">{$_.action.bodyP7()}</p>
+	<p class="why-give">{$_.action.bodyP8()}</p>
+	<p class="why-give">{$_.action.bodyP9()}</p>
 </section>
 
 <div class="donate">
