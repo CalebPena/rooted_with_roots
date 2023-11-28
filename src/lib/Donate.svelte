@@ -2,7 +2,11 @@
 	import _ from '$lib/i18n/i18n-svelte';
 </script>
 
-<a href="https://providencedenver.churchcenter.com/giving/to/rooted-with-roofs" target="_blank">
+<a
+	href="https://providencedenver.churchcenter.com/giving/to/rooted-with-roofs"
+	target="_blank"
+	rel="noreferrer noopener"
+>
 	{$_.donate()}
 </a>
 

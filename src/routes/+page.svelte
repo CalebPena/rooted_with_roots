@@ -60,11 +60,16 @@
 <section class="resources-section">
 	<p>
 		{$_.resources.descriptionP1()}
-		<a href={$_.resources.websiteLink()} class="gov-link" target="_blank">
+		<a href={$_.resources.websiteLink()} class="gov-link" target="_blank" rel="noreferrer noopener">
 			{$_.resources.website()}
 		</a>
 		{$_.resources.descriptionP2()}
-		<a href={$_.resources.dashboardLink()} class="gov-link" target="_blank">
+		<a
+			href={$_.resources.dashboardLink()}
+			class="gov-link"
+			target="_blank"
+			rel="noreferrer noopener"
+		>
 			{$_.resources.dashboard()}
 		</a>
 		{$_.resources.descriptionP3()}
