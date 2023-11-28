@@ -5,14 +5,17 @@
 	import _, { locale, setLocale } from '$lib/i18n/i18n-svelte';
 
 	let selectLocale = $locale;
-	$: setLocale(selectLocale);
+	function changeLocale() {
+		setLocale(selectLocale);
+		localStorage.setItem('lang', selectLocale);
+	}
 </script>
 
 <h1>Rooted With Roofs</h1>
 
 <ImageGallary />
 <div class="donate">
-	<select name="language" id="language-select" bind:value={selectLocale}>
+	<select name="language" id="language-select" bind:value={selectLocale} on:change={changeLocale}>
 		<option value="en">English</option>
 		<option value="es">Español</option>
 	</select>
@@ -34,6 +37,21 @@
 	<p class="mission">{$_.mission.body()}</p>
 </section>
 
+<div class="spacer"></div>
+
+<section class="call-to-action">
+	<h2 id="call-to-action">{$_.action.header()}</h2>
+	<p class="call-to-action">{$_.action.bodyP1()}</p>
+	<p class="call-to-action">{$_.action.bodyP2()}</p>
+	<p class="call-to-action">{$_.action.bodyP3()}</p>
+	<p class="call-to-action">{$_.action.bodyP4()}</p>
+	<p class="call-to-action">{$_.action.bodyP5()}</p>
+	<p class="call-to-action">{$_.action.bodyP6()}</p>
+	<p class="call-to-action">{$_.action.bodyP7()}</p>
+	<p class="call-to-action">{$_.action.bodyP8()}</p>
+	<p class="call-to-action">{$_.action.bodyP9()}</p>
+</section>
+
 <div class="donate">
 	<Donate />
 </div>
@@ -43,9 +61,18 @@
 <section class="resources-section">
 	<h2 id="resources">{$_.resources.header()}</h2>
 	<p>{$_.resources.description()}</p>
-	<a href="https://maps.app.goo.gl/zcFBRHvjvhJsJp2t5" class="address">
-		{$_.resources.link()}
-	</a>
+	<div>
+		<span>{$_.resources.website()}</span>
+		<a href={$_.resources.websiteLink()} class="address" target="_blank">
+			{$_.resources.websiteLink()}
+		</a>
+	</div>
+	<div>
+		<span>{$_.resources.dashboard()}</span>
+		<a href={$_.resources.dashboardLink()} class="address" target="_blank">
+			{$_.resources.dashboardLink()}
+		</a>
+	</div>
 </section>
 
 <div class="spacer"></div>

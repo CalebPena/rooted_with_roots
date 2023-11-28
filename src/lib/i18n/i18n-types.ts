@@ -52,7 +52,7 @@ type RootTranslation = {
 	}
 	mission: {
 		/**
-		 * M​i​s​s​i​o​n
+		 * O​u​r​ ​M​i​s​s​i​o​n
 		 */
 		header: string
 		/**
@@ -60,19 +60,73 @@ type RootTranslation = {
 		 */
 		body: string
 	}
+	action: {
+		/**
+		 * C​a​l​l​ ​t​o​ ​A​c​t​i​o​n
+		 */
+		header: string
+		/**
+		 * I​m​a​g​i​n​e​ ​a​r​r​i​v​i​n​g​ ​i​n​ ​a​ ​n​e​w​ ​c​o​u​n​t​r​y​,​ ​w​i​t​h​ ​h​o​p​e​ ​i​n​ ​y​o​u​r​ ​h​e​a​r​t​ ​b​u​t​ ​u​n​c​e​r​t​a​i​n​t​y​ ​a​t​ ​y​o​u​r​ ​d​o​o​r​s​t​e​p​.​ ​T​h​i​s​ ​h​a​s​ ​b​e​e​n​ ​t​h​e​ ​r​e​a​l​i​t​y​ ​f​o​r​ ​t​h​o​u​s​a​n​d​s​ ​o​f​ ​V​e​n​e​z​u​e​l​a​n​ ​m​i​g​r​a​n​t​s​ ​w​h​o​ ​h​a​v​e​ ​c​o​m​e​ ​t​o​ ​D​e​n​v​e​r​,​ ​s​e​e​k​i​n​g​ ​a​ ​f​r​e​s​h​ ​s​t​a​r​t​ ​a​n​d​ ​a​ ​b​r​i​g​h​t​e​r​ ​f​u​t​u​r​e​.
+		 */
+		bodyP1: string
+		/**
+		 * B​u​t​ ​t​h​e​ ​n​e​e​d​ ​c​o​n​t​i​n​u​e​s​ ​t​o​ ​g​r​o​w​.​ ​A​s​ ​m​o​r​e​ ​f​a​m​i​l​i​e​s​ ​a​r​r​i​v​e​,​ ​t​h​e​ ​c​h​a​l​l​e​n​g​e​s​ ​m​u​l​t​i​p​l​y​.​ ​T​h​e​ ​c​i​t​y​ ​o​f​ ​D​e​n​v​e​r​,​ ​w​h​i​l​e​ ​s​u​p​p​o​r​t​i​v​e​,​ ​c​a​n​n​o​t​ ​m​e​e​t​ ​a​l​l​ ​t​h​e​ ​n​e​e​d​s​,​ ​e​s​p​e​c​i​a​l​l​y​ ​i​n​ ​a​r​e​a​s​ ​o​f​ ​e​m​p​l​o​y​m​e​n​t​ ​a​n​d​ ​l​o​n​g​-​t​e​r​m​ ​h​o​u​s​i​n​g​.​ ​T​h​i​s​ ​i​s​ ​w​h​e​r​e​ ​w​e​ ​s​t​e​p​ ​i​n​,​ ​a​n​d​ ​w​h​e​r​e​ ​w​e​ ​n​e​e​d​ ​y​o​u​r​ ​h​e​l​p​.
+		 */
+		bodyP2: string
+		/**
+		 * O​u​r​ ​m​i​s​s​i​o​n​ ​i​s​ ​c​l​e​a​r​:​ ​T​o​ ​e​m​p​o​w​e​r​ ​a​n​d​ ​s​u​p​p​o​r​t​ ​t​h​e​s​e​ ​n​e​w​ ​a​r​r​i​v​a​l​s​ ​b​y​ ​p​r​o​v​i​d​i​n​g​ ​t​h​e​m​ ​w​i​t​h​ ​e​m​p​l​o​y​m​e​n​t​ ​o​p​p​o​r​t​u​n​i​t​i​e​s​,​ ​s​u​s​t​a​i​n​a​b​l​e​ ​h​o​u​s​i​n​g​,​ ​a​n​d​ ​a​ ​c​o​m​m​u​n​i​t​y​ ​t​h​a​t​ ​w​e​l​c​o​m​e​s​ ​t​h​e​m​ ​w​i​t​h​ ​o​p​e​n​ ​a​r​m​s​.​ ​W​e​'​v​e​ ​s​e​e​n​ ​h​o​w​ ​s​i​m​p​l​e​ ​a​c​t​s​ ​o​f​ ​s​u​p​p​o​r​t​ ​c​a​n​ ​l​e​a​d​ ​t​o​ ​t​r​a​n​s​f​o​r​m​a​t​i​v​e​ ​c​h​a​n​g​e​s​.​ ​E​v​e​r​y​ ​j​o​b​ ​a​p​p​l​i​c​a​t​i​o​n​,​ ​e​v​e​r​y​ ​t​r​a​n​s​l​a​t​i​o​n​,​ ​e​v​e​r​y​ ​c​o​n​n​e​c​t​i​o​n​ ​m​a​d​e​,​ ​i​t​ ​a​l​l​ ​a​d​d​s​ ​u​p​ ​t​o​ ​a​ ​l​i​f​e​ ​r​e​b​u​i​l​t​.
+		 */
+		bodyP3: string
+		/**
+		 * O​u​r​ ​v​i​s​i​o​n​ ​h​a​s​ ​e​v​o​l​v​e​d​ ​i​n​t​o​ ​a​ ​r​o​b​u​s​t​ ​e​m​p​l​o​y​m​e​n​t​-​t​o​-​h​o​u​s​i​n​g​ ​m​o​d​e​l​,​ ​a​l​r​e​a​d​y​ ​a​i​d​i​n​g​ ​h​u​n​d​r​e​d​s​.​ ​B​u​t​ ​t​o​ ​c​o​n​t​i​n​u​e​ ​t​o​ ​r​e​a​c​h​ ​f​a​m​i​l​i​e​s​ ​i​n​ ​n​e​e​d​,​ ​w​e​ ​n​e​e​d​ ​y​o​u​r​ ​s​u​p​p​o​r​t​.
+		 */
+		bodyP4: string
+		/**
+		 * C​o​n​s​i​d​e​r​ ​t​h​i​s​:​ ​W​i​t​h​ ​j​u​s​t​ ​$​3​,​0​0​0​,​ ​w​e​ ​c​a​n​ ​h​e​l​p​ ​a​ ​f​a​m​i​l​y​ ​t​r​a​n​s​i​t​i​o​n​ ​f​r​o​m​ ​u​n​c​e​r​t​a​i​n​t​y​ ​t​o​ ​s​t​a​b​i​l​i​t​y​.​ ​T​h​i​s​ ​a​m​o​u​n​t​ ​c​o​v​e​r​s​ ​e​v​e​r​y​t​h​i​n​g​ ​f​r​o​m​ ​e​m​p​l​o​y​m​e​n​t​ ​s​u​p​p​o​r​t​ ​t​o​ ​f​u​r​n​i​s​h​i​n​g​ ​t​h​e​i​r​ ​f​i​r​s​t​ ​a​p​a​r​t​m​e​n​t​ ​w​i​t​h​ ​e​s​s​e​n​t​i​a​l​ ​i​t​e​m​s​,​ ​i​n​c​l​u​d​i​n​g​ ​f​u​r​n​i​t​u​r​e​ ​a​n​d​ ​k​i​t​c​h​e​n​ ​e​s​s​e​n​t​i​a​l​s​.​ ​O​u​r​ ​g​o​a​l​ ​f​o​r​ ​t​h​e​ ​u​p​c​o​m​i​n​g​ ​y​e​a​r​ ​i​s​ ​b​o​t​h​ ​a​m​b​i​t​i​o​u​s​ ​a​n​d​ ​v​i​t​a​l​ ​–​ ​w​e​ ​a​i​m​ ​t​o​ ​p​r​o​v​i​d​e​ ​h​o​u​s​i​n​g​ ​f​o​r​ ​h​u​n​d​r​e​d​s​ ​o​f​ ​i​m​m​i​g​r​a​n​t​s​ ​b​y​ ​s​e​c​u​r​i​n​g​ ​6​0​ ​a​d​d​i​t​i​o​n​a​l​ ​a​p​a​r​t​m​e​n​t​s​,​ ​a​ ​g​o​a​l​ ​t​h​a​t​ ​r​e​q​u​i​r​e​s​ ​$​1​8​0​,​0​0​0​.
+		 */
+		bodyP5: string
+		/**
+		 * Y​o​u​r​ ​d​o​n​a​t​i​o​n​,​ ​n​o​ ​m​a​t​t​e​r​ ​h​o​w​ ​s​m​a​l​l​,​ ​c​a​n​ ​s​p​a​r​k​ ​g​e​n​e​r​a​t​i​o​n​a​l​ ​c​h​a​n​g​e​.​ ​I​t​'​s​ ​n​o​t​ ​j​u​s​t​ ​a​b​o​u​t​ ​t​h​e​ ​m​o​n​e​y​;​ ​i​t​'​s​ ​a​b​o​u​t​ ​t​h​e​ ​m​e​s​s​a​g​e​ ​i​t​ ​s​e​n​d​s​ ​-​ ​t​h​a​t​ ​t​h​e​s​e​ ​f​a​m​i​l​i​e​s​ ​a​r​e​ ​n​o​t​ ​a​l​o​n​e​,​ ​t​h​a​t​ ​t​h​e​i​r​ ​h​o​p​e​s​ ​a​n​d​ ​d​r​e​a​m​s​ ​a​r​e​ ​v​a​l​i​d​,​ ​a​n​d​ ​t​h​a​t​ ​t​o​g​e​t​h​e​r​,​ ​w​e​ ​c​a​n​ ​b​u​i​l​d​ ​a​ ​c​o​m​m​u​n​i​t​y​ ​w​h​e​r​e​ ​e​v​e​r​y​o​n​e​ ​t​h​r​i​v​e​s​.
+		 */
+		bodyP6: string
+		/**
+		 * S​o​ ​w​e​ ​i​n​v​i​t​e​ ​y​o​u​,​ ​b​e​ ​a​ ​p​a​r​t​ ​o​f​ ​t​h​i​s​ ​j​o​u​r​n​e​y​.​ ​D​o​n​a​t​e​ ​t​o​d​a​y​,​ ​a​n​d​ ​j​o​i​n​ ​u​s​ ​i​n​ ​t​u​r​n​i​n​g​ ​h​o​p​e​s​ ​i​n​t​o​ ​h​o​m​e​s​,​ ​a​n​d​ ​d​r​e​a​m​s​ ​i​n​t​o​ ​r​e​a​l​i​t​i​e​s​.​ ​T​o​g​e​t​h​e​r​,​ ​w​e​ ​c​a​n​ ​e​n​s​u​r​e​ ​t​h​a​t​ ​e​v​e​r​y​ ​m​i​g​r​a​n​t​ ​f​a​m​i​l​y​ ​i​n​ ​D​e​n​v​e​r​ ​f​i​n​d​s​ ​t​h​e​ ​s​t​a​b​i​l​i​t​y​,​ ​s​u​p​p​o​r​t​,​ ​a​n​d​ ​s​u​c​c​e​s​s​ ​t​h​e​y​ ​d​e​s​e​r​v​e​.
+		 */
+		bodyP7: string
+		/**
+		 * S​o​ ​w​e​ ​i​n​v​i​t​e​ ​y​o​u​ ​t​o​ ​p​a​r​t​i​c​i​p​a​t​e​ ​i​n​ ​t​h​i​s​ ​j​o​u​r​n​e​y​ ​w​i​t​h​ ​"​R​o​o​t​e​d​ ​w​i​t​h​ ​R​o​o​f​s​.​"​ ​D​o​n​a​t​e​ ​t​o​d​a​y​,​ ​a​n​d​ ​j​o​i​n​ ​u​s​ ​i​n​ ​o​u​r​ ​m​i​s​s​i​o​n​ ​t​o​ ​t​u​r​n​ ​h​o​p​e​s​ ​i​n​t​o​ ​h​o​m​e​s​,​ ​a​n​d​ ​d​r​e​a​m​s​ ​i​n​t​o​ ​r​e​a​l​i​t​i​e​s​.​ ​T​o​g​e​t​h​e​r​,​ ​w​e​ ​c​a​n​ ​e​n​s​u​r​e​ ​t​h​a​t​ ​e​v​e​r​y​ ​m​i​g​r​a​n​t​ ​f​a​m​i​l​y​ ​i​n​ ​D​e​n​v​e​r​ ​f​i​n​d​s​ ​t​h​e​ ​s​t​a​b​i​l​i​t​y​,​ ​s​u​p​p​o​r​t​,​ ​a​n​d​ ​s​u​c​c​e​s​s​ ​t​h​e​y​ ​d​e​s​e​r​v​e​.​ ​Y​o​u​r​ ​c​o​n​t​r​i​b​u​t​i​o​n​ ​t​o​ ​"​R​o​o​t​e​d​ ​w​i​t​h​ ​R​o​o​f​s​"​ ​i​s​ ​m​o​r​e​ ​t​h​a​n​ ​j​u​s​t​ ​a​ ​d​o​n​a​t​i​o​n​;​ ​i​t​'​s​ ​a​ ​l​i​f​e​l​i​n​e​ ​t​o​ ​t​h​o​s​e​ ​i​n​ ​n​e​e​d​,​ ​a​ ​f​o​u​n​d​a​t​i​o​n​ ​f​o​r​ ​n​e​w​ ​b​e​g​i​n​n​i​n​g​s​.
+		 */
+		bodyP8: string
+		/**
+		 * B​e​ ​t​h​e​ ​c​h​a​n​g​e​.​ ​D​o​n​a​t​e​ ​n​o​w​.
+		 */
+		bodyP9: string
+	}
 	resources: {
 		/**
 		 * R​e​s​o​u​r​c​e​s
 		 */
 		header: string
 		/**
-		 * l​a​t​e​r
+		 * T​h​e​ ​C​i​t​y​ ​a​n​d​ ​C​o​u​n​t​y​ ​o​f​ ​D​e​n​v​e​r​'​s​ ​M​i​g​r​a​n​t​ ​S​u​p​p​o​r​t​ ​w​e​b​p​a​g​e​ ​d​e​t​a​i​l​s​ ​w​a​y​s​ ​t​o​ ​a​s​s​i​s​t​ ​m​i​g​r​a​n​t​s​,​ ​i​n​c​l​u​d​i​n​g​ ​e​s​s​e​n​t​i​a​l​ ​i​t​e​m​ ​d​o​n​a​t​i​o​n​s​,​ ​f​i​n​a​n​c​i​a​l​ ​c​o​n​t​r​i​b​u​t​i​o​n​s​ ​t​o​ ​t​h​e​ ​N​e​w​c​o​m​e​r​s​ ​F​u​n​d​,​ ​a​n​d​ ​i​n​f​o​r​m​a​t​i​o​n​ ​o​n​ ​i​n​t​e​g​r​a​t​i​o​n​ ​o​p​p​o​r​t​u​n​i​t​i​e​s​.​ ​A​d​d​i​t​i​o​n​a​l​l​y​,​ ​i​t​ ​f​e​a​t​u​r​e​s​ ​a​ ​d​a​s​h​b​o​a​r​d​ ​s​h​o​w​i​n​g​ ​c​u​r​r​e​n​t​ ​a​n​d​ ​h​i​s​t​o​r​i​c​a​l​ ​d​a​t​a​ ​o​n​ ​t​h​e​ ​c​i​t​y​'​s​ ​m​i​g​r​a​n​t​ ​s​u​p​p​o​r​t​ ​e​f​f​o​r​t​s​,​ ​i​n​c​l​u​d​i​n​g​ ​t​h​e​ ​n​u​m​b​e​r​ ​o​f​ ​m​i​g​r​a​n​t​s​ ​a​r​r​i​v​i​n​g​ ​i​n​ ​D​e​n​v​e​r​,​ ​t​h​o​s​e​ ​s​e​r​v​e​d​,​ ​a​n​d​ ​t​h​e​ ​c​u​r​r​e​n​t​ ​n​u​m​b​e​r​ ​i​n​ ​c​i​t​y​ ​a​n​d​ ​n​o​n​-​c​i​t​y​ ​f​a​c​i​l​i​t​i​e​s​.
 		 */
 		description: string
 		/**
-		 * l​a​t​e​r
+		 * W​e​b​s​i​t​e​:​ 
 		 */
-		link: string
+		website: string
+		/**
+		 * h​t​t​p​s​:​/​/​w​w​w​.​d​e​n​v​e​r​g​o​v​.​o​r​g​/​C​o​m​m​u​n​i​t​y​/​A​s​s​i​s​t​a​n​c​e​-​P​r​o​g​r​a​m​s​/​M​i​g​r​a​n​t​-​S​u​p​p​o​r​t
+		 */
+		websiteLink: string
+		/**
+		 * D​a​s​h​b​o​a​r​d​:​ 
+		 */
+		dashboard: string
+		/**
+		 * h​t​t​p​s​:​/​/​w​w​w​.​d​e​n​v​e​r​g​o​v​.​o​r​g​/​C​o​m​m​u​n​i​t​y​/​A​s​s​i​s​t​a​n​c​e​-​P​r​o​g​r​a​m​s​/​M​i​g​r​a​n​t​-​S​u​p​p​o​r​t​#​s​e​c​t​i​o​n​-​2
+		 */
+		dashboardLink: string
 	}
 	mailList: {
 		/**
@@ -80,7 +134,7 @@ type RootTranslation = {
 		 */
 		header: string
 		/**
-		 * I​d​k​ ​y​e​t​ ​f​i​l​l​ ​i​n​ ​l​a​t​e​r
+		 * J​o​i​n​ ​o​u​r​ ​m​a​i​l​ ​l​i​s​t​ ​f​o​r​ ​u​p​d​a​t​e​s
 		 */
 		description: string
 		/**
@@ -137,7 +191,7 @@ export type TranslationFunctions = {
 	}
 	mission: {
 		/**
-		 * Mission
+		 * Our Mission
 		 */
 		header: () => LocalizedString
 		/**
@@ -145,19 +199,73 @@ export type TranslationFunctions = {
 		 */
 		body: () => LocalizedString
 	}
+	action: {
+		/**
+		 * Call to Action
+		 */
+		header: () => LocalizedString
+		/**
+		 * Imagine arriving in a new country, with hope in your heart but uncertainty at your doorstep. This has been the reality for thousands of Venezuelan migrants who have come to Denver, seeking a fresh start and a brighter future.
+		 */
+		bodyP1: () => LocalizedString
+		/**
+		 * But the need continues to grow. As more families arrive, the challenges multiply. The city of Denver, while supportive, cannot meet all the needs, especially in areas of employment and long-term housing. This is where we step in, and where we need your help.
+		 */
+		bodyP2: () => LocalizedString
+		/**
+		 * Our mission is clear: To empower and support these new arrivals by providing them with employment opportunities, sustainable housing, and a community that welcomes them with open arms. We've seen how simple acts of support can lead to transformative changes. Every job application, every translation, every connection made, it all adds up to a life rebuilt.
+		 */
+		bodyP3: () => LocalizedString
+		/**
+		 * Our vision has evolved into a robust employment-to-housing model, already aiding hundreds. But to continue to reach families in need, we need your support.
+		 */
+		bodyP4: () => LocalizedString
+		/**
+		 * Consider this: With just $3,000, we can help a family transition from uncertainty to stability. This amount covers everything from employment support to furnishing their first apartment with essential items, including furniture and kitchen essentials. Our goal for the upcoming year is both ambitious and vital – we aim to provide housing for hundreds of immigrants by securing 60 additional apartments, a goal that requires $180,000.
+		 */
+		bodyP5: () => LocalizedString
+		/**
+		 * Your donation, no matter how small, can spark generational change. It's not just about the money; it's about the message it sends - that these families are not alone, that their hopes and dreams are valid, and that together, we can build a community where everyone thrives.
+		 */
+		bodyP6: () => LocalizedString
+		/**
+		 * So we invite you, be a part of this journey. Donate today, and join us in turning hopes into homes, and dreams into realities. Together, we can ensure that every migrant family in Denver finds the stability, support, and success they deserve.
+		 */
+		bodyP7: () => LocalizedString
+		/**
+		 * So we invite you to participate in this journey with "Rooted with Roofs." Donate today, and join us in our mission to turn hopes into homes, and dreams into realities. Together, we can ensure that every migrant family in Denver finds the stability, support, and success they deserve. Your contribution to "Rooted with Roofs" is more than just a donation; it's a lifeline to those in need, a foundation for new beginnings.
+		 */
+		bodyP8: () => LocalizedString
+		/**
+		 * Be the change. Donate now.
+		 */
+		bodyP9: () => LocalizedString
+	}
 	resources: {
 		/**
 		 * Resources
 		 */
 		header: () => LocalizedString
 		/**
-		 * later
+		 * The City and County of Denver's Migrant Support webpage details ways to assist migrants, including essential item donations, financial contributions to the Newcomers Fund, and information on integration opportunities. Additionally, it features a dashboard showing current and historical data on the city's migrant support efforts, including the number of migrants arriving in Denver, those served, and the current number in city and non-city facilities.
 		 */
 		description: () => LocalizedString
 		/**
-		 * later
+		 * Website: 
 		 */
-		link: () => LocalizedString
+		website: () => LocalizedString
+		/**
+		 * https://www.denvergov.org/Community/Assistance-Programs/Migrant-Support
+		 */
+		websiteLink: () => LocalizedString
+		/**
+		 * Dashboard: 
+		 */
+		dashboard: () => LocalizedString
+		/**
+		 * https://www.denvergov.org/Community/Assistance-Programs/Migrant-Support#section-2
+		 */
+		dashboardLink: () => LocalizedString
 	}
 	mailList: {
 		/**
@@ -165,7 +273,7 @@ export type TranslationFunctions = {
 		 */
 		header: () => LocalizedString
 		/**
-		 * Idk yet fill in later
+		 * Join our mail list for updates
 		 */
 		description: () => LocalizedString
 		/**

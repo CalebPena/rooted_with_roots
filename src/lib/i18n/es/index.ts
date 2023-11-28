@@ -20,14 +20,39 @@ const es = {
 		header: 'Nuestra Misión',
 		body: 'Nuestra misión es empoderar y apoyar a los inmigrantes recientes en Denver brindándoles oportunidades de empleo y viviendas sostenibles. Nuestro objetivo es crear un entorno comunitario de apoyo que ayude a cada unidad familiar a integrarse sin problemas en su nueva comunidad, garantizando que tengan los recursos para la estabilidad y el éxito a largo plazo.'
 	},
+	action: {
+		header: 'Llamada a la acción',
+		bodyP1:
+			'Imagínese llegar a un nuevo país, con esperanza en el corazón pero incertidumbre en la puerta. Esta ha sido la realidad de miles de inmigrantes venezolanos que han llegado a Denver en busca de un nuevo comienzo y un futuro mejor.',
+		bodyP2:
+			'Pero la necesidad sigue creciendo. A medida que llegan más familias, los desafíos se multiplican. La ciudad de Denver, si bien brinda apoyo, no puede satisfacer todas las necesidades, especialmente en áreas de empleo y vivienda a largo plazo. Aquí es donde intervenimos nosotros y donde necesitamos su ayuda.',
+		bodyP3:
+			'Nuestra misión es clara: empoderar y apoyar a estos recién llegados brindándoles oportunidades de empleo, viviendas sostenibles y una comunidad que los reciba con los brazos abiertos. Hemos visto cómo simples actos de apoyo pueden conducir a cambios transformadores. Cada solicitud de empleo, cada traducción, cada conexión realizada, todo suma para reconstruir una vida.',
+		bodyP4:
+			'Nuestra visión ha evolucionado hasta convertirse en un modelo sólido de empleo a vivienda, que ya ayuda a cientos de personas. Pero para seguir llegando a las familias necesitadas, necesitamos su apoyo.',
+		bodyP5:
+			'Considere esto: con solo $3,000, podemos ayudar a una familia a pasar de la incertidumbre a la estabilidad. Esta cantidad cubre todo, desde apoyo laboral hasta amueblar su primer apartamento con artículos esenciales, incluidos muebles y artículos de cocina. Nuestro objetivo para el próximo año es ambicioso y vital: nuestro objetivo es proporcionar vivienda a cientos de inmigrantes asegurando 60 apartamentos adicionales, un objetivo que requiere $180,000.',
+		bodyP6:
+			'Tu donación, por pequeña que sea, puede provocar un cambio generacional. No se trata sólo del dinero; se trata del mensaje que envía: que estas familias no están solas, que sus esperanzas y sueños son válidos y que juntos podemos construir una comunidad donde todos prosperen.',
+		bodyP7:
+			'Por eso te invitamos a ser parte de este viaje. Done hoy y únase a nosotros para convertir las esperanzas en hogares y los sueños en realidades. Juntos, podemos garantizar que cada familia migrante en Denver encuentre la estabilidad, el apoyo y el éxito que merecen.',
+		bodyP8:
+			'Por eso te invitamos a participar de este viaje con "Arraigados con Techos". Done hoy y únase a nosotros en nuestra misión de convertir las esperanzas en hogares y los sueños en realidades. Juntos, podemos garantizar que cada familia migrante en Denver encuentre la estabilidad, el apoyo y el éxito que merecen. Su contribución a "Rooted with Roofs" es más que una simple donación; es un salvavidas para los necesitados, una base para nuevos comienzos.',
+		bodyP9: 'Sé el cambio. Done ahora.'
+	},
 	resources: {
 		header: 'Recursos',
-		description: 'later (SPANISH)',
-		link: 'later (SPANISH)'
+		description:
+			'La página web de Apoyo a Migrantes de la ciudad y el condado de Denver detalla formas de ayudar a los migrantes, incluidas donaciones de artículos esenciales, contribuciones financieras al Fondo para Recién Llegados e información sobre oportunidades de integración. Además, presenta un panel que muestra datos actuales e históricos sobre los esfuerzos de apoyo a los migrantes de la ciudad, incluido el número de migrantes que llegan a Denver, los atendidos y el número actual en instalaciones de la ciudad y fuera de la ciudad.',
+		website: 'Sitio Web: ',
+		websiteLink: 'https://www.denvergov.org/Community/Assistance-Programs/Migrant-Support',
+		dashboard: 'Panel: ',
+		dashboardLink:
+			'https://www.denvergov.org/Community/Assistance-Programs/Migrant-Support#section-2'
 	},
 	mailList: {
 		header: 'Lista de Correo',
-		description: 'Idk yet fill in later (SPANISH)',
+		description: 'Únase a nuestra lista de correo para recibir actualizaciones',
 		name: 'Nombre',
 		email: 'Email',
 		button: 'Entregar'
