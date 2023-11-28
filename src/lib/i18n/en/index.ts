@@ -4,7 +4,8 @@ const en = {
 	header: {
 		story: 'Story',
 		mission: 'Mission',
-		resources: 'Why Give'
+		give: 'Why Give',
+		resources: 'Resources'
 	},
 	donate: 'DONATE',
 	story: {

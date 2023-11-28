@@ -26,6 +26,10 @@ type RootTranslation = {
 		/**
 		 * W​h​y​ ​G​i​v​e
 		 */
+		give: string
+		/**
+		 * R​e​s​o​u​r​c​e​s
+		 */
 		resources: string
 	}
 	/**
@@ -160,6 +164,10 @@ export type TranslationFunctions = {
 		mission: () => LocalizedString
 		/**
 		 * Why Give
+		 */
+		give: () => LocalizedString
+		/**
+		 * Resources
 		 */
 		resources: () => LocalizedString
 	}

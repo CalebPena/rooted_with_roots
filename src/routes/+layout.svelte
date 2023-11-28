@@ -13,7 +13,8 @@
 		<a href="/" class="logo"><img src="/logo.png" alt="Rooted With Roofs Logo" /></a>
 		<a href="/#story">{$_.header.story()}</a>
 		<a href="/#mission">{$_.header.mission()}</a>
-		<a href="/#why-give">{$_.header.resources()}</a>
+		<a href="/#why-give">{$_.header.give()}</a>
+		<a href="/#resources">{$_.header.resources()}</a>
 	</div>
 	<Donate />
 </nav>
@@ -63,7 +64,7 @@
 	.links {
 		display: flex;
 		gap: 1em;
-		font-size: 2em;
+		font-size: 1.7em;
 		align-items: center;
 	}
 
@@ -78,10 +79,10 @@
 	}
 
 	img {
-		width: 2em;
+		width: 2.4em;
 	}
 
-	@media (max-width: 900px) {
+	@media (max-width: 1010px) {
 		nav {
 			flex-direction: column;
 			height: 9em;
@@ -97,7 +98,7 @@
 		}
 	}
 
-	@media (max-width: 680px) {
+	@media (max-width: 900px) {
 		nav {
 			align-items: baseline;
 			position: unset;
