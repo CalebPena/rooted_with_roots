@@ -90,17 +90,13 @@ type RootTranslation = {
 		 */
 		bodyP6: string
 		/**
-		 * S​o​ ​w​e​ ​i​n​v​i​t​e​ ​y​o​u​,​ ​b​e​ ​a​ ​p​a​r​t​ ​o​f​ ​t​h​i​s​ ​j​o​u​r​n​e​y​.​ ​D​o​n​a​t​e​ ​t​o​d​a​y​,​ ​a​n​d​ ​j​o​i​n​ ​u​s​ ​i​n​ ​t​u​r​n​i​n​g​ ​h​o​p​e​s​ ​i​n​t​o​ ​h​o​m​e​s​,​ ​a​n​d​ ​d​r​e​a​m​s​ ​i​n​t​o​ ​r​e​a​l​i​t​i​e​s​.​ ​T​o​g​e​t​h​e​r​,​ ​w​e​ ​c​a​n​ ​e​n​s​u​r​e​ ​t​h​a​t​ ​e​v​e​r​y​ ​m​i​g​r​a​n​t​ ​f​a​m​i​l​y​ ​i​n​ ​D​e​n​v​e​r​ ​f​i​n​d​s​ ​t​h​e​ ​s​t​a​b​i​l​i​t​y​,​ ​s​u​p​p​o​r​t​,​ ​a​n​d​ ​s​u​c​c​e​s​s​ ​t​h​e​y​ ​d​e​s​e​r​v​e​.
+		 * S​o​ ​w​e​ ​i​n​v​i​t​e​ ​y​o​u​,​ ​b​e​ ​a​ ​p​a​r​t​ ​o​f​ ​t​h​i​s​ ​j​o​u​r​n​e​y​.​ ​D​o​n​a​t​e​ ​t​o​d​a​y​,​ ​a​n​d​ ​j​o​i​n​ ​u​s​ ​i​n​ ​t​u​r​n​i​n​g​ ​h​o​p​e​s​ ​i​n​t​o​ ​h​o​m​e​s​,​ ​a​n​d​ ​d​r​e​a​m​s​ ​i​n​t​o​ ​r​e​a​l​i​t​i​e​s​.​ ​T​o​g​e​t​h​e​r​,​ ​w​e​ ​c​a​n​ ​e​n​s​u​r​e​ ​t​h​a​t​ ​e​v​e​r​y​ ​m​i​g​r​a​n​t​ ​f​a​m​i​l​y​ ​i​n​ ​D​e​n​v​e​r​ ​f​i​n​d​s​ ​t​h​e​ ​s​t​a​b​i​l​i​t​y​,​ ​s​u​p​p​o​r​t​,​ ​a​n​d​ ​s​u​c​c​e​s​s​ ​t​h​e​y​ ​d​e​s​e​r​v​e​.​ ​Y​o​u​r​ ​c​o​n​t​r​i​b​u​t​i​o​n​ ​t​o​ ​"​R​o​o​t​e​d​ ​w​i​t​h​ ​R​o​o​f​s​"​ ​i​s​ ​m​o​r​e​ ​t​h​a​n​ ​j​u​s​t​ ​a​ ​d​o​n​a​t​i​o​n​;​ ​i​t​'​s​ ​a​ ​l​i​f​e​l​i​n​e​ ​t​o​ ​t​h​o​s​e​ ​i​n​ ​n​e​e​d​,​ ​a​ ​f​o​u​n​d​a​t​i​o​n​ ​f​o​r​ ​n​e​w​ ​b​e​g​i​n​n​i​n​g​s​.
 		 */
 		bodyP7: string
 		/**
-		 * S​o​ ​w​e​ ​i​n​v​i​t​e​ ​y​o​u​ ​t​o​ ​p​a​r​t​i​c​i​p​a​t​e​ ​i​n​ ​t​h​i​s​ ​j​o​u​r​n​e​y​ ​w​i​t​h​ ​"​R​o​o​t​e​d​ ​w​i​t​h​ ​R​o​o​f​s​.​"​ ​D​o​n​a​t​e​ ​t​o​d​a​y​,​ ​a​n​d​ ​j​o​i​n​ ​u​s​ ​i​n​ ​o​u​r​ ​m​i​s​s​i​o​n​ ​t​o​ ​t​u​r​n​ ​h​o​p​e​s​ ​i​n​t​o​ ​h​o​m​e​s​,​ ​a​n​d​ ​d​r​e​a​m​s​ ​i​n​t​o​ ​r​e​a​l​i​t​i​e​s​.​ ​T​o​g​e​t​h​e​r​,​ ​w​e​ ​c​a​n​ ​e​n​s​u​r​e​ ​t​h​a​t​ ​e​v​e​r​y​ ​m​i​g​r​a​n​t​ ​f​a​m​i​l​y​ ​i​n​ ​D​e​n​v​e​r​ ​f​i​n​d​s​ ​t​h​e​ ​s​t​a​b​i​l​i​t​y​,​ ​s​u​p​p​o​r​t​,​ ​a​n​d​ ​s​u​c​c​e​s​s​ ​t​h​e​y​ ​d​e​s​e​r​v​e​.​ ​Y​o​u​r​ ​c​o​n​t​r​i​b​u​t​i​o​n​ ​t​o​ ​"​R​o​o​t​e​d​ ​w​i​t​h​ ​R​o​o​f​s​"​ ​i​s​ ​m​o​r​e​ ​t​h​a​n​ ​j​u​s​t​ ​a​ ​d​o​n​a​t​i​o​n​;​ ​i​t​'​s​ ​a​ ​l​i​f​e​l​i​n​e​ ​t​o​ ​t​h​o​s​e​ ​i​n​ ​n​e​e​d​,​ ​a​ ​f​o​u​n​d​a​t​i​o​n​ ​f​o​r​ ​n​e​w​ ​b​e​g​i​n​n​i​n​g​s​.
-		 */
-		bodyP8: string
-		/**
 		 * B​e​ ​t​h​e​ ​c​h​a​n​g​e​.​ ​D​o​n​a​t​e​ ​n​o​w​.
 		 */
-		bodyP9: string
+		bodyP8: string
 	}
 	resources: {
 		/**
@@ -229,17 +225,13 @@ export type TranslationFunctions = {
 		 */
 		bodyP6: () => LocalizedString
 		/**
-		 * So we invite you, be a part of this journey. Donate today, and join us in turning hopes into homes, and dreams into realities. Together, we can ensure that every migrant family in Denver finds the stability, support, and success they deserve.
+		 * So we invite you, be a part of this journey. Donate today, and join us in turning hopes into homes, and dreams into realities. Together, we can ensure that every migrant family in Denver finds the stability, support, and success they deserve. Your contribution to "Rooted with Roofs" is more than just a donation; it's a lifeline to those in need, a foundation for new beginnings.
 		 */
 		bodyP7: () => LocalizedString
 		/**
-		 * So we invite you to participate in this journey with "Rooted with Roofs." Donate today, and join us in our mission to turn hopes into homes, and dreams into realities. Together, we can ensure that every migrant family in Denver finds the stability, support, and success they deserve. Your contribution to "Rooted with Roofs" is more than just a donation; it's a lifeline to those in need, a foundation for new beginnings.
-		 */
-		bodyP8: () => LocalizedString
-		/**
 		 * Be the change. Donate now.
 		 */
-		bodyP9: () => LocalizedString
+		bodyP8: () => LocalizedString
 	}
 	resources: {
 		/**

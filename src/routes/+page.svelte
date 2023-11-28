@@ -49,7 +49,6 @@
 	<p class="why-give">{$_.action.bodyP6()}</p>
 	<p class="why-give">{$_.action.bodyP7()}</p>
 	<p class="why-give">{$_.action.bodyP8()}</p>
-	<p class="why-give">{$_.action.bodyP9()}</p>
 </section>
 
 <div class="donate">

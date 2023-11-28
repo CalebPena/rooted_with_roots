@@ -4,10 +4,11 @@
 		'/images/IMG_0312.jpg',
 		'/images/IMG_1120.jpg',
 		'/images/IMG_1581.jpeg',
+		'/images/IMG_4905.jpeg',
 		'/images/IMG_4874.jpg',
 		'/images/IMG_4315.jpg',
 		'/images/IMG_4507.jpg',
-		'/images/IMG_4611.jpg'
+		'/images/IMG_4611.jpg',
 	];
 
 	let styledImages = images.map((src) => {

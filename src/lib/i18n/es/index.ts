@@ -35,10 +35,8 @@ const es = {
 		bodyP6:
 			'Tu donación, por pequeña que sea, puede provocar un cambio generacional. No se trata sólo del dinero; se trata del mensaje que envía: que estas familias no están solas, que sus esperanzas y sueños son válidos y que juntos podemos construir una comunidad donde todos prosperen.',
 		bodyP7:
-			'Por eso te invitamos a ser parte de este viaje. Done hoy y únase a nosotros para convertir las esperanzas en hogares y los sueños en realidades. Juntos, podemos garantizar que cada familia migrante en Denver encuentre la estabilidad, el apoyo y el éxito que merecen.',
-		bodyP8:
-			'Por eso te invitamos a participar de este viaje con "Arraigados con Techos". Done hoy y únase a nosotros en nuestra misión de convertir las esperanzas en hogares y los sueños en realidades. Juntos, podemos garantizar que cada familia migrante en Denver encuentre la estabilidad, el apoyo y el éxito que merecen. Su contribución a "Rooted with Roofs" es más que una simple donación; es un salvavidas para los necesitados, una base para nuevos comienzos.',
-		bodyP9: 'Sé el cambio. Done ahora.'
+			'Por eso te invitamos a ser parte de este viaje. Done hoy y únase a nosotros para convertir las esperanzas en hogares y los sueños en realidades. Juntos, podemos garantizar que cada familia migrante en Denver encuentre la estabilidad, el apoyo y el éxito que merecen. Su contribución a "Rooted with Roofs" es más que una simple donación; es un salvavidas para los necesitados, una base para nuevos comienzos.',
+		bodyP8: 'Sé el cambio. Done ahora.'
 	},
 	resources: {
 		header: 'Recursos',
