@@ -41,11 +41,14 @@ const es = {
 	},
 	resources: {
 		header: 'Recursos',
-		description:
-			'La página web de Apoyo a Migrantes de la ciudad y el condado de Denver detalla formas de ayudar a los migrantes, incluidas donaciones de artículos esenciales, contribuciones financieras al Fondo para Recién Llegados e información sobre oportunidades de integración. Además, presenta un panel que muestra datos actuales e históricos sobre los esfuerzos de apoyo a los migrantes de la ciudad, incluido el número de migrantes que llegan a Denver, los atendidos y el número actual en instalaciones de la ciudad y fuera de la ciudad.',
-		website: 'Sitio Web: ',
+		descriptionP1: 'La ',
+		descriptionP2:
+			' detalla formas de ayudar a los migrantes, incluidas donaciones de artículos esenciales, contribuciones financieras al Fondo para Recién Llegados e información sobre oportunidades de integración. Además, presenta un ',
+		descriptionP3:
+			' que muestra datos actuales e históricos sobre los esfuerzos de apoyo a los migrantes de la ciudad, incluido el número de migrantes que llegan a Denver, los atendidos y el número actual en instalaciones de la ciudad y fuera de la ciudad.',
+		website: 'página web de Apoyo a Migrantes de la ciudad y el condado de Denver',
 		websiteLink: 'https://www.denvergov.org/Community/Assistance-Programs/Migrant-Support',
-		dashboard: 'Panel: ',
+		dashboard: 'panel',
 		dashboardLink:
 			'https://www.denvergov.org/Community/Assistance-Programs/Migrant-Support#section-2'
 	},

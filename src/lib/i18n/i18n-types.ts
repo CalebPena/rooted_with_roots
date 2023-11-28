@@ -108,11 +108,19 @@ type RootTranslation = {
 		 */
 		header: string
 		/**
-		 * T​h​e​ ​C​i​t​y​ ​a​n​d​ ​C​o​u​n​t​y​ ​o​f​ ​D​e​n​v​e​r​'​s​ ​M​i​g​r​a​n​t​ ​S​u​p​p​o​r​t​ ​w​e​b​p​a​g​e​ ​d​e​t​a​i​l​s​ ​w​a​y​s​ ​t​o​ ​a​s​s​i​s​t​ ​m​i​g​r​a​n​t​s​,​ ​i​n​c​l​u​d​i​n​g​ ​e​s​s​e​n​t​i​a​l​ ​i​t​e​m​ ​d​o​n​a​t​i​o​n​s​,​ ​f​i​n​a​n​c​i​a​l​ ​c​o​n​t​r​i​b​u​t​i​o​n​s​ ​t​o​ ​t​h​e​ ​N​e​w​c​o​m​e​r​s​ ​F​u​n​d​,​ ​a​n​d​ ​i​n​f​o​r​m​a​t​i​o​n​ ​o​n​ ​i​n​t​e​g​r​a​t​i​o​n​ ​o​p​p​o​r​t​u​n​i​t​i​e​s​.​ ​A​d​d​i​t​i​o​n​a​l​l​y​,​ ​i​t​ ​f​e​a​t​u​r​e​s​ ​a​ ​d​a​s​h​b​o​a​r​d​ ​s​h​o​w​i​n​g​ ​c​u​r​r​e​n​t​ ​a​n​d​ ​h​i​s​t​o​r​i​c​a​l​ ​d​a​t​a​ ​o​n​ ​t​h​e​ ​c​i​t​y​'​s​ ​m​i​g​r​a​n​t​ ​s​u​p​p​o​r​t​ ​e​f​f​o​r​t​s​,​ ​i​n​c​l​u​d​i​n​g​ ​t​h​e​ ​n​u​m​b​e​r​ ​o​f​ ​m​i​g​r​a​n​t​s​ ​a​r​r​i​v​i​n​g​ ​i​n​ ​D​e​n​v​e​r​,​ ​t​h​o​s​e​ ​s​e​r​v​e​d​,​ ​a​n​d​ ​t​h​e​ ​c​u​r​r​e​n​t​ ​n​u​m​b​e​r​ ​i​n​ ​c​i​t​y​ ​a​n​d​ ​n​o​n​-​c​i​t​y​ ​f​a​c​i​l​i​t​i​e​s​.
+		 * T​h​e​ 
 		 */
-		description: string
+		descriptionP1: string
 		/**
-		 * W​e​b​s​i​t​e​:​ 
+		 *  ​d​e​t​a​i​l​s​ ​w​a​y​s​ ​t​o​ ​a​s​s​i​s​t​ ​m​i​g​r​a​n​t​s​,​ ​i​n​c​l​u​d​i​n​g​ ​e​s​s​e​n​t​i​a​l​ ​i​t​e​m​ ​d​o​n​a​t​i​o​n​s​,​ ​f​i​n​a​n​c​i​a​l​ ​c​o​n​t​r​i​b​u​t​i​o​n​s​ ​t​o​ ​t​h​e​ ​N​e​w​c​o​m​e​r​s​ ​F​u​n​d​,​ ​a​n​d​ ​i​n​f​o​r​m​a​t​i​o​n​ ​o​n​ ​i​n​t​e​g​r​a​t​i​o​n​ ​o​p​p​o​r​t​u​n​i​t​i​e​s​.​ ​A​d​d​i​t​i​o​n​a​l​l​y​,​ ​i​t​ ​f​e​a​t​u​r​e​s​ ​a​ 
+		 */
+		descriptionP2: string
+		/**
+		 *  ​s​h​o​w​i​n​g​ ​c​u​r​r​e​n​t​ ​a​n​d​ ​h​i​s​t​o​r​i​c​a​l​ ​d​a​t​a​ ​o​n​ ​t​h​e​ ​c​i​t​y​'​s​ ​m​i​g​r​a​n​t​ ​s​u​p​p​o​r​t​ ​e​f​f​o​r​t​s​,​ ​i​n​c​l​u​d​i​n​g​ ​t​h​e​ ​n​u​m​b​e​r​ ​o​f​ ​m​i​g​r​a​n​t​s​ ​a​r​r​i​v​i​n​g​ ​i​n​ ​D​e​n​v​e​r​,​ ​t​h​o​s​e​ ​s​e​r​v​e​d​,​ ​a​n​d​ ​t​h​e​ ​c​u​r​r​e​n​t​ ​n​u​m​b​e​r​ ​i​n​ ​c​i​t​y​ ​a​n​d​ ​n​o​n​-​c​i​t​y​ ​f​a​c​i​l​i​t​i​e​s​.
+		 */
+		descriptionP3: string
+		/**
+		 * C​i​t​y​ ​a​n​d​ ​C​o​u​n​t​y​ ​o​f​ ​D​e​n​v​e​r​'​s​ ​M​i​g​r​a​n​t​ ​S​u​p​p​o​r​t​ ​w​e​b​p​a​g​e
 		 */
 		website: string
 		/**
@@ -120,11 +128,11 @@ type RootTranslation = {
 		 */
 		websiteLink: string
 		/**
-		 * D​a​s​h​b​o​a​r​d​:​ 
+		 * d​a​s​h​b​o​a​r​d
 		 */
 		dashboard: string
 		/**
-		 * h​t​t​p​s​:​/​/​w​w​w​.​d​e​n​v​e​r​g​o​v​.​o​r​g​/​C​o​m​m​u​n​i​t​y​/​A​s​s​i​s​t​a​n​c​e​-​P​r​o​g​r​a​m​s​/​M​i​g​r​a​n​t​-​S​u​p​p​o​r​t​#​s​e​c​t​i​o​n​-​2
+		 * h​t​t​p​s​:​/​/​a​p​p​.​p​o​w​e​r​b​i​g​o​v​.​u​s​/​v​i​e​w​?​r​=​e​y​J​r​I​j​o​i​N​W​Q​4​Y​j​c​w​Z​D​c​t​O​D​k​w​N​y​0​0​Y​j​A​4​L​T​h​l​M​T​k​t​M​j​M​3​Y​j​U​2​N​m​I​w​Z​T​R​j​I​i​w​i​d​C​I​6​I​j​M​5​Y​z​g​3​Y​W​I​z​L​T​Y​2​M​T​I​t​N​D​J​j​M​C​0​5​N​j​I​w​L​W​E​2​O​T​Z​k​M​T​J​k​Z​j​g​w​M​y​J​9
 		 */
 		dashboardLink: string
 	}
@@ -247,11 +255,19 @@ export type TranslationFunctions = {
 		 */
 		header: () => LocalizedString
 		/**
-		 * The City and County of Denver's Migrant Support webpage details ways to assist migrants, including essential item donations, financial contributions to the Newcomers Fund, and information on integration opportunities. Additionally, it features a dashboard showing current and historical data on the city's migrant support efforts, including the number of migrants arriving in Denver, those served, and the current number in city and non-city facilities.
+		 * The 
 		 */
-		description: () => LocalizedString
+		descriptionP1: () => LocalizedString
 		/**
-		 * Website: 
+		 *  details ways to assist migrants, including essential item donations, financial contributions to the Newcomers Fund, and information on integration opportunities. Additionally, it features a 
+		 */
+		descriptionP2: () => LocalizedString
+		/**
+		 *  showing current and historical data on the city's migrant support efforts, including the number of migrants arriving in Denver, those served, and the current number in city and non-city facilities.
+		 */
+		descriptionP3: () => LocalizedString
+		/**
+		 * City and County of Denver's Migrant Support webpage
 		 */
 		website: () => LocalizedString
 		/**
@@ -259,11 +275,11 @@ export type TranslationFunctions = {
 		 */
 		websiteLink: () => LocalizedString
 		/**
-		 * Dashboard: 
+		 * dashboard
 		 */
 		dashboard: () => LocalizedString
 		/**
-		 * https://www.denvergov.org/Community/Assistance-Programs/Migrant-Support#section-2
+		 * https://app.powerbigov.us/view?r=eyJrIjoiNWQ4YjcwZDctODkwNy00YjA4LThlMTktMjM3YjU2NmIwZTRjIiwidCI6IjM5Yzg3YWIzLTY2MTItNDJjMC05NjIwLWE2OTZkMTJkZjgwMyJ9
 		 */
 		dashboardLink: () => LocalizedString
 	}

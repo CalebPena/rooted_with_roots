@@ -40,13 +40,16 @@ const en = {
 	},
 	resources: {
 		header: 'Resources',
-		description:
-			"The City and County of Denver's Migrant Support webpage details ways to assist migrants, including essential item donations, financial contributions to the Newcomers Fund, and information on integration opportunities. Additionally, it features a dashboard showing current and historical data on the city's migrant support efforts, including the number of migrants arriving in Denver, those served, and the current number in city and non-city facilities.",
-		website: 'Website: ',
+		descriptionP1: 'The ',
+		descriptionP2:
+			' details ways to assist migrants, including essential item donations, financial contributions to the Newcomers Fund, and information on integration opportunities. Additionally, it features a ',
+		descriptionP3:
+			" showing current and historical data on the city's migrant support efforts, including the number of migrants arriving in Denver, those served, and the current number in city and non-city facilities.",
+		website: "City and County of Denver's Migrant Support webpage",
 		websiteLink: 'https://www.denvergov.org/Community/Assistance-Programs/Migrant-Support',
-		dashboard: 'Dashboard: ',
+		dashboard: 'dashboard',
 		dashboardLink:
-			'https://www.denvergov.org/Community/Assistance-Programs/Migrant-Support#section-2'
+			'https://app.powerbigov.us/view?r=eyJrIjoiNWQ4YjcwZDctODkwNy00YjA4LThlMTktMjM3YjU2NmIwZTRjIiwidCI6IjM5Yzg3YWIzLTY2MTItNDJjMC05NjIwLWE2OTZkMTJkZjgwMyJ9'
 	},
 	mailList: {
 		header: 'Mail List',

@@ -58,20 +58,17 @@
 <div class="spacer"></div>
 
 <section class="resources-section">
-	<h2 id="resources">{$_.resources.header()}</h2>
-	<p>{$_.resources.description()}</p>
-	<div>
-		<span>{$_.resources.website()}</span>
-		<a href={$_.resources.websiteLink()} class="address" target="_blank">
-			{$_.resources.websiteLink()}
+	<p>
+		{$_.resources.descriptionP1()}
+		<a href={$_.resources.websiteLink()} class="gov-link" target="_blank">
+			{$_.resources.website()}
 		</a>
-	</div>
-	<div>
-		<span>{$_.resources.dashboard()}</span>
-		<a href={$_.resources.dashboardLink()} class="address" target="_blank">
-			{$_.resources.dashboardLink()}
+		{$_.resources.descriptionP2()}
+		<a href={$_.resources.dashboardLink()} class="gov-link" target="_blank">
+			{$_.resources.dashboard()}
 		</a>
-	</div>
+		{$_.resources.descriptionP3()}
+	</p>
 </section>
 
 <div class="spacer"></div>
@@ -110,6 +107,11 @@
 
 	h2 {
 		text-align: center;
+	}
+
+	.gov-link {
+		color: #00247d;
+		font-weight: bold;
 	}
 
 	.mail-section {
