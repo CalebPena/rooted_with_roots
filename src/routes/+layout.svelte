@@ -10,13 +10,15 @@
 
 <nav>
 	<div class="links">
-		<a href="/" class="logo"><img src="/logo.png" alt="Rooted With Roofs Logo" /></a>
+		<a href="/" class="logo">
+			<img src="/logo.png" alt="Rooted With Roofs Logo" data-sveltekit-preload-data="hover" />
+		</a>
 		<a href="/#story">{$_.header.story()}</a>
 		<a href="/#mission">{$_.header.mission()}</a>
 		<a href="/#why-give">{$_.header.give()}</a>
 		<a href="/#resources">{$_.header.resources()}</a>
 	</div>
-	<Donate />
+	<Donate text={$_.donate()} />
 </nav>
 
 <main>
@@ -66,6 +68,7 @@
 	main {
 		padding: 0 15%;
 		margin-top: 4em;
+		margin-bottom: 10em;
 	}
 
 	nav {

@@ -1,22 +1,13 @@
-import { browser } from '$app/environment';
+import type { LayoutLoad } from './$types';
 import { setLocale } from '$lib/i18n/i18n-svelte';
-import { baseLocale, detectLocale } from '$lib/i18n/i18n-util';
-import {
-	navigatorDetector,
-	localStorageDetector,
-	queryStringDetector
-} from 'typesafe-i18n/detectors';
-import { loadAllLocales } from '$lib/i18n/i18n-util.sync';
+import { detectLocale } from '$lib/i18n/i18n-util';
+import { loadAllLocalesAsync } from '$lib/i18n/i18n-util.async';
+import { navigatorDetector } from 'typesafe-i18n/detectors';
 
-export const load = (event) => {
-	loadAllLocales();
-	if (browser) {
-		const locale = detectLocale(queryStringDetector, localStorageDetector, navigatorDetector);
-
-		setLocale(locale);
-	} else {
-		setLocale(baseLocale);
-	}
+export const load = (async (event) => {
+	const locale = detectLocale(() => [event.data.locale], navigatorDetector);
+	await loadAllLocalesAsync();
+	setLocale(locale);
 
 	return event.data;
-};
+}) satisfies LayoutLoad;

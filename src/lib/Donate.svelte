@@ -1,15 +1,18 @@
 <script lang="ts">
 	import _ from '$lib/i18n/i18n-svelte';
-	import type { LocalizedString } from 'typesafe-i18n';
 
-	export let link: string = '/donate';
-	export let text: () => LocalizedString = $_.donate;
-
-	// https://providencedenver.churchcenter.com/giving/to/rooted-with-roofs
+	export let text: string;
+	export let link = '/donate';
+	export let newTab = false;
 </script>
 
-<a href={link} target="_blank" rel="noreferrer noopener">
-	{text()}
+<a
+	href={link}
+	target={newTab ? '_blank' : ''}
+	rel={newTab ? 'noreferrer noopener' : ''}
+	data-sveltekit-preload-data="hover"
+>
+	{text}
 </a>
 
 <style>
