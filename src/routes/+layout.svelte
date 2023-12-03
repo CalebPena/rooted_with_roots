@@ -35,10 +35,32 @@
 		box-sizing: border-box;
 	}
 
+	:global(::selection) {
+		background-color: var(--action-color);
+	}
+
 	:global(body, html) {
 		margin: 0;
 		background-color: #eeeeee;
 		scroll-padding-top: 6em;
+	}
+
+	:global(h1) {
+		text-align: center;
+		padding-top: 1em;
+	}
+
+	:global(select) {
+		font-size: 1em;
+	}
+
+	:global(h2) {
+		text-align: center;
+	}
+
+	:global(a) {
+		color: #00247d;
+		font-weight: bold;
 	}
 
 	main {

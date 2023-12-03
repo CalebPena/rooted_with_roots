@@ -94,30 +94,12 @@
 </section>
 
 <style>
-	h1 {
-		text-align: center;
-		padding-top: 1em;
-	}
-
 	.donate {
 		text-align: center;
 	}
 
-	select {
-		font-size: 1em;
-	}
-
 	.spacer {
 		padding: 2em;
-	}
-
-	h2 {
-		text-align: center;
-	}
-
-	.gov-link {
-		color: #00247d;
-		font-weight: bold;
 	}
 
 	.mail-section {
